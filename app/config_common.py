@@ -21,3 +21,4 @@ ADMINS = ['flask.boilerplate@gmail.com']
 
 # Number of times a password is hashed
 BCRYPT_LOG_ROUNDS = 12
+UPLOAD_FOLDER = '~/Documents/Machine Learning Siraj Course/Midterm/app/forms'

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% import "macros.html" as m %}
 <html lang="en">
-	<body id="container">
+	<body id="container" style="background-color:#FFFFFF">
    		<div id="header">
    			{% block head %}
 				<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
@@ -15,7 +15,7 @@
 				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/components/reset.min.css"/>
 				<!-- Semantic Menu CSS -->
 				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/components/menu.min.css"/>
-				<!-- Main Semantic JS  -->
+				<!-- Main Sem6antic JS  -->
 			    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
 				<!-- Custom CSS -->
 				<link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
@@ -48,6 +48,9 @@
 				</div>
 			{% endblock %}
    		</div>
+			<center>
+			<img src="https://i.imgur.com/rLoGWYi.png">
+		</center>
    		<!-- Message flashing -->
 		{% with messages = get_flashed_messages(with_categories=true) %}
 		  	{% if messages %}
